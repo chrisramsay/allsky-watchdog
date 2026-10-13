@@ -47,7 +47,7 @@ Recovery typically takes about a minute (reconnect plus first exposure).
 As the user that runs indi-allsky (usually `pi`):
 
 ```bash
-git clone https://github.com/<you>/allsky-watchdog.git ~/allsky-watchdog
+git clone https://github.com/chrisramsay/allsky-watchdog.git ~/allsky-watchdog
 cd ~/allsky-watchdog
 bash install.sh
 ```
