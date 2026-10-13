@@ -1,0 +1,6 @@
+[Unit]
+Description=Restart indi-allsky if the camera stops producing images
+
+[Service]
+Type=oneshot
+ExecStart=@SCRIPT@
