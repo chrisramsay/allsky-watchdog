@@ -1,0 +1,2 @@
+# Local settings live in ~/.config, never in the repo
+allsky-watchdog.conf

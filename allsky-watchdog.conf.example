@@ -1,0 +1,12 @@
+# allsky-watchdog settings - copy to ~/.config/allsky-watchdog.conf
+# Any line left commented uses the default shown.
+
+# IMAGE=/var/www/html/allsky/images/latest.jpg
+# MAX_AGE=180          # seconds without a new frame before restarting
+# COOLDOWN=600         # minimum seconds between restarts
+# CAPTURE_UNIT=indi-allsky
+# INDI_UNIT=indiserver
+
+# Publish the frame age to MQTT on each restart (needs mosquitto-clients)
+# MQTT_HOST=192.168.1.2
+# MQTT_TOPIC=allsky-watchdog/restart
