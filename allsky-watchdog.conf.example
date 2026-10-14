@@ -1,5 +1,6 @@
 # allsky-watchdog settings - copy to ~/.config/allsky-watchdog.conf
 # Any line left commented uses the default shown.
+# Environment variables override these (useful for one-off tests).
 
 # IMAGE=/var/www/html/allsky/images/latest.jpg
 # MAX_AGE=180          # seconds without a new frame before restarting

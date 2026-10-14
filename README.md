@@ -47,7 +47,7 @@ Recovery typically takes about a minute (reconnect plus first exposure).
 As the user that runs indi-allsky (usually `pi`):
 
 ```bash
-git clone https://github.com/chrisramsay/allsky-watchdog.git ~/allsky-watchdog
+git clone https://github.com/<you>/allsky-watchdog.git ~/allsky-watchdog
 cd ~/allsky-watchdog
 bash install.sh
 ```
@@ -102,6 +102,9 @@ sudo systemctl restart systemd-journald
 
 Edit `~/.config/allsky-watchdog.conf` (shell syntax, `NAME=value`). Changes
 apply on the next run — no reload needed.
+
+Precedence is **environment > config file > defaults**, so a one-off
+`MAX_AGE=1 ./allsky-watchdog.sh` works even when the config file sets `MAX_AGE`.
 
 | Setting | Default | Meaning |
 |---|---|---|
